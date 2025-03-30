@@ -1,7 +1,7 @@
-global.prefix = '/'; // Set Your Preferred Prefix
-global.botName = 'GIFTED-MD'; // Bot Name
+global.prefix = ''; // Set Your Preferred Prefix
+global.botName = 'SʜɪNɪTᴀ 𝐓𝐇𝐀 𝙷𝚎𝚕𝚙𝚎𝚛'; // Bot Name
 global.botVersion = '2.0.0';
-global.botPic = 'https://files.giftedtech.web.id/file/gifted-md.jpg'; // Can use path, can also use link
+global.botPic = '/shinita.png'; // Can use path, can also use link
 global.botToken = '7215903425:AAEKVxJbnq429tf9xEGyAhuKtJYdOZcFCGY'; // Replace With Your Bot Token (Get it from BotFather)
 global.ownerUsername = 'mouricedevs'; // Replace With Your Telegram Username(For Bot Owner)
 global.timeZone = 'Africa/Nairobi'; // Your Time Zone

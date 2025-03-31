@@ -3,7 +3,7 @@ const axios = require('axios'),
 
 async function giftedKonachan() {
     try {
-        let { giftedData } = await axios.get('https://apis.davidcyriltech.my.id/random/quotes')
+        let { giftedData } = await axios.get('https://apis.davidcyriltech.my.id/hentai')
         let $ = cheerio.load(giftedData)
         let img = []
         $('#post-list-posts a.directlink.largeimg').each((index, element) => {

@@ -66,10 +66,9 @@ let Giftedd = async (m, { Gifted, plugins, monospace }) => {
   }
 
   let giftedMess = `╭══〘〘 *${monospace(botName)}* 〙〙═⊷\n`;
-giftedMess += `┃❍ *Pʀᴇғɪx:*  [ ${monospace(prefix)} ]\n`;
-giftedMess += `┃❍ *ᴏᴡɴᴇʀ:*  @${monospace(ownerUsername)}\n`;
-giftedMess += `┃❍ *Pʟᴜɢɪɴs:*  ${monospace(totalCommands.toString())}\n`;
-giftedMess += `┃❍ *Vᴇʀsɪᴏɴ:*  ${monospace(botVersion)}\n`;
+giftedMess += `┃➣ *Pʀᴇғɪx:*  [ ${monospace(prefix)} ]\n`;
+giftedMess += `┃➣ *ᴏᴡɴᴇʀ:*  @${monospace(ownerUsername)}\n`;
+giftedMess += `┃➣ *Pʟᴜɢɪɴs:*  ${monospace(totalCommands.toString())}\n`;
 giftedMess += `┃❍ *Uᴘᴛɪᴍᴇ:*  ${monospace(uptime)}\n`;
 giftedMess += `┃❍ *Tɪᴍᴇ Nᴏᴡ:*  ${monospace(time)}\n`;
 giftedMess += `┃❍ *Dᴀᴛᴇ Tᴏᴅᴀʏ:*  ${monospace(date)}\n`;
@@ -93,7 +92,7 @@ giftedMess += `╰═════════════════⊷\n\n*${m
       { text: 'Help', callback_data: JSON.stringify({ feature: 'help' }) },
     ],
     [
-      { text: 'WaChannel', url: 'https://whatsapp.com/channel/0029VaYauR9ISTkHTj4xvi1l' },
+      { text: 'WaChannel', url: 'https://whatsapp.com/channel/0029Vb4sHtX6hENwn07deE1a' },
     ],
   ];
 

@@ -68,7 +68,7 @@ let Giftedd = async (m, { Gifted, plugins, monospace }) => {
   let giftedMess = `╭────────❒〘〘 *${monospace(botName)}* 〙〙➣\n`;
 giftedMess += `┃➣ *Pʀᴇғɪx:*  [ ${monospace(prefix)} ]\n`;
 giftedMess += `┃➣ *ᴏᴡɴᴇʀ:*  @${monospace(ownerUsername)}\n`;
-giftedMess += `╰═════════0:35 ━❍──────── -5:32═══════⊷\n\n*${monospace(botName)} ${monospace('COMMANDS LIST:')}*\n\n`;
+giftedMess += `╰════❍────────═⊷\n\n*${monospace(botName)} ${monospace('COMMANDS LIST:')}*\n\n`;
 
   for (const [category, items] of Object.entries(groupedPlugins)) {
     items.sort((a, b) => (a.command ? a.command[0].localeCompare(b.command[0]) : a.localeCompare(b)));

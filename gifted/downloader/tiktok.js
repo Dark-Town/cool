@@ -1,12 +1,12 @@
 const axios = require("axios");
 
 module.exports = {
-    command: ['ytmp3'],
-    desc: 'Download Audio from Youtube',
+    command: ['tiktok'],
+    desc: 'Download Video or Photos on Tiktok',
     category: ['downloader'],
     async run(m, { Gifted, text }) {
 
-        if (!text) return Gifted.reply({ text: `Usage: ${global.prefix}ytmp3 https://youtu.be/60ItHLz5WEA?feature=shared` }, m);
+        if (!text) return Gifted.reply({ text: `Usage: ${global.prefix}tiktok https://vm.tiktok.com/ZMBfSTE7y/` }, m);
 
         Gifted.reply({ text: giftechMess.wait }, m);
 

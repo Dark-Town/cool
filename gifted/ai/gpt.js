@@ -8,13 +8,13 @@ let Giftedd = async (m, { Gifted, text, fetchJson }) => {
 
     let giftedButtons = [
         [
-            { text: 'Ai Web', url: 'https://api.giftedtech.web.id/aichat' },
+            { text: 'Ai Web', url: 'https://ab-text-voice.abrahamdw882.workers.dev/api/tts?model=tts-english3&text=Hi%20there!%20It%27s%20nice%20to%20meet%20you.%20How%20are%20you%20doing%20today%3F%20Is%20there%20something%20on%20your%20mind%20that%20you%27d%20like%20to%20talk%20about%20or%20ask%20me%3F%20I%27m%20here%20to%20help!%20%F0%9F%98%8A' },
             { text: 'WaChannel', url: 'https://whatsapp.com/channel/0029VaYauR9ISTkHTj4xvi1l' }
         ]
     ];
 
     try {
-        const aiResponse = await fetchJson(`${global.giftedApi}/ai/gpt?apikey=${global.giftedKey}&q=${text}`);
+        const aiResponse = await fetchJson(`https://ab-text-voice.abrahamdw882.workers.dev/api/tts?model=tts-english3&text=Hi%20there!%20It%27s%20nice%20to%20meet%20you.%20How%20are%20you%20doing%20today%3F%20Is%20there%20something%20on%20your%20mind%20that%20you%27d%20like%20to%20talk%20about%20or%20ask%20me%3F%20I%27m%20here%20to%20help!%20%F0%9F%98%8A`);
         const giftedResponse = aiResponse.result;
 
         Gifted.reply( { text: giftedResponse}, giftedButtons, m);

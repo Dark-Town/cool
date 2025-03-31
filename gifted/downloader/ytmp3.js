@@ -15,7 +15,7 @@ module.exports = {
             if (!videoUrl.startsWith("https://youtu")) return Gifted.reply({ text: 'Please Provide a Valid YouTube Link' }, m);
 
             try {
-                const apiResponse = await axios.get(`${global.giftedApi}/download/dlmp3?apikey=${global.giftedKey}&url=${videoUrl}`);
+                const apiResponse = await axios.get(`https://apis.davidcyriltech.my.id/youtube/mp3?url=https://youtube.com/watch?v=q0hyYWKXF0Q`);
                 const downloadUrl = apiResponse.data.result.download_url;
                 const fileName = apiResponse.data.result.title;
 

@@ -7,10 +7,10 @@ module.exports = {
     },
     async run(m, { Gifted, fetchJson }) {
         Gifted.reply({ text: giftechMess.wait }, m)
-	    const giftedRes = await fetchJson('https://tikdown-api-sandy.vercel.app/api/download?url=${encodeURIComponent(url)}')
+	    const giftedRes = await fetchJson(https://tikdown-api-sandy.vercel.app/api/download?url=${encodeURIComponent(url)})
 	    let giftedButtons = [
             [
-                { text: '🔁', feature: 'hneko' },
+                { text: '🔁', feature: 'TIKTOK DOWNLOAD' },
             ]
         ]
         await Gifted.reply({ image: giftedRes.url, caption: ` SUCCESSFUL DOWNLOAD` }, giftedButtons, m)

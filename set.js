@@ -6,7 +6,7 @@ global.ownerUsername = 'TcronebNet'; // Replace With Your Telegram Username(For 
 global.timeZone = 'Africa/Harare'; // Your Time Zone
 global.ownerId = [7215903425]; // Replace With Your Owner ID(For Bot Owner), You Can Add More than 1
 global.footer = '*Powered by 𝐓𝐂𝐑𝐎𝐍𝐄𝐁 𝐇𝐀𝐂𝐊𝐗*';
-global.ytdlWeb = 'https://apis.davidcyriltech.my.id/song?query=Faded';
+global.ytdlWeb = 'https://apis.davidcyriltech.my.id/song?query=';
 global.giftedApi = 'https://api.giftedtech.web.id/api'; // Gifted Api
 global.giftedKey = ''; // Gifted Api Key
 global.maherApi = 'https://api.nexoracle.com'; // NexOracle Api
